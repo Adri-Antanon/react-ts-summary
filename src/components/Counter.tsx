@@ -1,6 +1,8 @@
 import { useState } from "react";
 
-export const Counter = ({ initialValue }: { initialValue: number }) => {
+import { CounterProps } from "../interfaces";
+
+export const Counter: React.FC<CounterProps> = ({ initialValue = 0 }) => {
   const [counter, setCounter] = useState(initialValue);
 
   const handleClick = (amount: number = 1): void => {
