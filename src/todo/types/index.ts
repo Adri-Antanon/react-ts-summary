@@ -6,4 +6,5 @@ export type TodoAction =
 
 export type TodoContextProps = {
   todoState: TodoState;
+  toggleTodo: (id: string) => void;
 };
