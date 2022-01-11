@@ -10,3 +10,9 @@ export interface CounterStateProps {
 export interface useCounterProps {
   maxCount: number;
 }
+
+export interface CounterReducerState {
+  counter: number;
+  previous: number;
+  changes: number;
+}
