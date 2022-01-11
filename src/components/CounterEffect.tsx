@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from "react";
 import { gsap } from "gsap";
-import { TLSSocket } from "tls";
 
 const MAXIMUN_COUNT = 10;
 
